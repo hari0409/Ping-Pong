@@ -113,7 +113,7 @@ pygame.display.set_caption("PING PONG")
 # SHAPES
 ball = pygame.Rect(screen_width / 2 - 15, screen_height / 2 - 15, 20, 20)
 player = pygame.Rect(screen_width - 20, screen_height / 2 - 70, 10, 140)
-opponent = pygame.Rect(10, screen_height / 2 - 70, 10, 200)
+opponent = pygame.Rect(10, screen_height / 2 - 70, 10, 200) # pygame.Rect(pox,poy,breath,length)  
 
 # SCORE TIMER
 score_time = True
